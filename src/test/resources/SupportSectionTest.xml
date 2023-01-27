@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LinksTestSuite" verbose="1" parallel="tests" thread-count="3">
+
+    <test name="SupportSectionTest-CH">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.audiomovers.SupportSectionVerification" />
+        </classes>
+    </test>
+
+</suite>
