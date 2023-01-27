@@ -2,9 +2,8 @@ package com.audiomovers;
 
 import com.audiomovers.base.TestUtilities;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pages.Omnibus_qa_test;
+import com.audiomovers.base.pages.Omnibus_qa_test;
 
 public class LinksVerificationTests extends TestUtilities {
 

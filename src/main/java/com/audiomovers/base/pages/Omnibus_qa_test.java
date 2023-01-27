@@ -1,10 +1,8 @@
-package pages;
+package com.audiomovers.base.pages;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 public class Omnibus_qa_test extends BasePageObject {
 	/**
